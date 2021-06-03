@@ -3,7 +3,7 @@ body{
   font-style: oblique;
   color:#000000;
   text-align:center;
-  position: fixed;
+  position: absolute;
   left: 30%;
 
 
@@ -22,15 +22,14 @@ img{
 }
 #thirdDiv{
   width: 500px;
-  heigth: 600px;
+  height: 600px;
   background-color:#FFBE44 ;
   padding: 50px;
   border: solid 4px #000000 ;
   border-radius: 10px;
-
-
-
+  margin: 10px;
 }
+
 #spanId{
   font-size: 18px;
   margin: 50px;
@@ -38,8 +37,11 @@ img{
 li{
 
   margin: 10px;
-  padding: 10px;
-  font-size: 22px;
+  padding: 5px;
+  font-size: 25px;
   color:#C70039;
   list-style: none;
+  position: relative;
+  bottom: 80px;
+
 }
